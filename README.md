@@ -14,7 +14,7 @@
 </p>
 
 --------------------------------------
-<p>Выполнения:</p>
+<p>Выполнение:</p>
 
          composer create-project laravel/laravel whitewill
 	     php artisan make:model Post -m
@@ -24,11 +24,11 @@
          php artisan make:controller PostsController
 
 Сам запроc
-       public function index()
-       {
+         public function index()
+         {
            $posts = Post::latest()->limit(100)->get();
            return view('index', ['posts' => $posts]);
-       }
+         }
 
 База данных распологается в корне /whitewill.sql
 
