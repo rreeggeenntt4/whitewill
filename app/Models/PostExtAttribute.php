@@ -7,8 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class PostExtAttribute extends Model
 {
+    protected $table = 'post_ext_attributes';
+    protected $fillable = [
+        'post_id',
+        'rubric',
+    ];
+
     public function post_ext_attributes()
     {
-        return $this->hasMany(PostExtAttribute::class);
+        return $this->belongsTo(Post::class);
     }
 }
