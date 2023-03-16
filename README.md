@@ -59,3 +59,12 @@
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/rreeggeenntt4/whitewill/master/public/media/console.png" width="400" alt="Laravel Logo"></p>
+
+--------------------------------------
+<p>Выполнить:</p>
+<p>
+Напишите на JavaScript асинхронный цикл, который выведет в консоль по порядку цифры от 1 до 10, а после 10 выведет цифры от 9 до 0.
+</p>
+<p>
+Вместо операторов цикла (таких как: for, foreach, while и другие) используейте функции setTimeout или setInterval;
+</p>
