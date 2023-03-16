@@ -55,7 +55,7 @@
 --------------------------------------
 <p>Выполнение:</p>
 
-     <a href="https://github.com/rreeggeenntt4/whitewill/blob/master/public/js/custom.js">/public/js/custom.js</a>
+     https://github.com/rreeggeenntt4/whitewill/blob/master/public/js/custom.js
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/rreeggeenntt4/whitewill/master/public/media/console.png" width="400" alt="Laravel Logo"></p>
