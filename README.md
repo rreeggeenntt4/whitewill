@@ -1,22 +1,27 @@
 --------------------------------------
 <p>Выполнить:</p>
-    8) К примеру в базе данных MySQL у нас есть таблицы posts и post_ext_attributes, с типичными столбцами. Таблицы имеют связь posts.id=post_ext_attributes.post_id.
-
-    Для извлечения данных используется фреймворк Laravel, и для каждой таблицы может использоваться модель Laravel.
-
-    Задача состоит в том, чтобы получить последние 100 записей из таблицы posts вместе с дополнительными полями в post_ext_attributes.
-
-    Как это лучше сделать? Напишите код. Если не знаете Laravel, то напишете запрос на языке SQL;
+<p>
+8) К примеру в базе данных MySQL у нас есть таблицы posts и post_ext_attributes, с типичными столбцами. Таблицы имеют связь posts.id=post_ext_attributes.post_id.
+</p>
+<p>
+Для извлечения данных используется фреймворк Laravel, и для каждой таблицы может использоваться модель Laravel.
+</p>
+<p>
+Задача состоит в том, чтобы получить последние 100 записей из таблицы posts вместе с дополнительными полями в post_ext_attributes.
+</p>
+<p>
+Как это лучше сделать? Напишите код. Если не знаете Laravel, то напишете запрос на языке SQL;
+</p>
 
 --------------------------------------
 <p>Выполнения:</p>
 
-composer create-project laravel/laravel whitewill
-	   php artisan make:model Post -m
-	   php artisan make:model PostExtAttribute -m
+         composer create-project laravel/laravel whitewill
+	     php artisan make:model Post -m
+	     php artisan make:model PostExtAttribute -m
 
-       php artisan migrate
-       php artisan make:controller PostsController
+         php artisan migrate
+         php artisan make:controller PostsController
 
 Сам запроc
        public function index()
