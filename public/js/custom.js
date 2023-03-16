@@ -20,8 +20,6 @@ var myTimer = setInterval(function () {
         starter = 1;
     }
 
-
-
     if ((starter == 1) && (n < 0)) {
         clearInterval(myTimer);
     }
