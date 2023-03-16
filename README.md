@@ -37,3 +37,25 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/rreeggeenntt4/whitewill/master/public/media/img.png" width="400" alt="Laravel Logo"></p>
 
+--------------------------------------
+<p>Выполнить:</p>
+<p>
+9) В коде JavaScript есть цикл for, внутри которого вложен вызов setTimeout.
+</p>
+<p>
+При каждой итерации локальная переменная i, объявленная с помощью оператора var, увеличивается на единицу,
+</p>
+<p>
+а в анонимной функции которую вызывает setTimeout есть вывод той переменной i в консоль. Изначально переменная i имеет значение 0.
+</p>
+<p>
+Какие цифры отобразятся в консоли при 10 итерациях цикла?
+</p>
+
+--------------------------------------
+<p>Выполнение:</p>
+
+     public\js\custom.js
+
+
+<p align="center"><img src="https://raw.githubusercontent.com/rreeggeenntt4/whitewill/master/public/media/console.png" width="400" alt="Laravel Logo"></p>
