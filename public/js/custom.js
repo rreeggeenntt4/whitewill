@@ -1,3 +1,4 @@
+/* 9 раздел */
 for (var i = 0; i < 10; i++) {
     /* console.log(i); */
     setTimeout(function () { console.log('Число = ' + i) }, 100);
@@ -5,6 +6,7 @@ for (var i = 0; i < 10; i++) {
 }
 
 
+/* 10 раздел */
 var n = 1;
 var starter = 0;
 var myTimer = setInterval(function () {
