@@ -79,3 +79,7 @@ custom.js
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/rreeggeenntt4/whitewill/master/public/media/console.png" width="400" alt="Laravel Logo"></p>
+
+--------------------------------------
+
+Все тесты завершены.
