@@ -24,6 +24,7 @@
          php artisan make:controller PostsController
 
 Сам запроc
+
          public function index()
          {
            $posts = Post::latest()->limit(100)->get();
